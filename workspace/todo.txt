@@ -1,0 +1,4 @@
+TODO
+    find alternative to iframe because of speed
+    fix the navbar
+DONE

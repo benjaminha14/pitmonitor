@@ -1,0 +1,109 @@
+<!-- Control View -->
+<style>
+input[type="range"] {
+    -webkit-appearance: none;
+    background-color: #EFEFEF;
+    height: 10px;
+    border-radius: 6px;
+}
+
+input:focus{
+    outline: 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    position: relative;
+    top: -1px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    background-color: #3498db;
+}
+
+img {
+    height: 50%;
+}
+</style>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="container">
+    <center><h4>Select Animation Type</h4></center>
+    <div class="row">
+        <div class="btn-group btn-group-justified">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default btn-group-mode" data-mode="k">Knightrider
+                    <span class="glyphicon glyphicon-transfer icon-mode"></span>
+                </button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-default btn-group-mode" data-mode="r">Rainbow
+                    <span class="glyphicon glyphicon-certificate icon-mode"></span>
+                </button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-default btn-group-mode" data-mode="c">Custom
+                    <span class="glyphicon glyphicon-cog icon-mode"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="control-row-2" style="opacity: 1;">
+        <center><h4>Tap to Select Color</h4></center>
+        <div class="row">
+            <div class="col-xs-4 col-xs-offset-4">
+                <form style="position: absolute; top: -9999px;">
+                    <!--<input type="text" id="color" name="color" value="#123456" />-->
+                </form>
+                <div id="colorpicker"></div>
+            </div>
+            </center>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h4>Select Mode</h4>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="btn-group-vertical btn-group-block">
+                    <button type="button" class="btn btn-default btn-pattern" data-mode="solid">Solid</button>
+                    <button type="button" class="btn btn-default btn-pattern" data-mode="flash">Flash</button>
+                    <button type="button" class="btn btn-default btn-pattern" data-mode="strobe">Strobe</button>
+                    <button type="button" class="btn btn-default btn-pattern" data-mode="fade">Fade</button>
+                </div>
+                <br/>
+                <br/>
+                <span class="fade-control">
+                    <h4>Fade In Time</h4>
+                    <input id="delay" type="range" name="points" min="1" max="10">
+                    <h4>Fade Out Time</h4>
+                    <input id="delay2" type="range" name="points" min="1" max="10">
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+#pages {
+    width: 100%; 
+    min-height: 50%;
+}
+
+/*no scrollbars pls*/
+::-webkit-scrollbar
+{
+  width: 0px;  /* for vertical scrollbars */
+  height: 0px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(255, 255, 255, 0);
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.1);
+  width: 0px;
+}
