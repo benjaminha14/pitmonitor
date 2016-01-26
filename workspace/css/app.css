@@ -24,4 +24,11 @@
 .navbar{
     /*Fix padding*/
     margin-bottom: 0;
+    
 }
+#imgCaption{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: aqua;
+}
+
