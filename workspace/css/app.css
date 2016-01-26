@@ -21,3 +21,7 @@
   background: rgba(0, 0, 0, 0.1);
   width: 0px;
 }
+.navbar{
+    /*Fix padding*/
+    margin-bottom: 0;
+}
